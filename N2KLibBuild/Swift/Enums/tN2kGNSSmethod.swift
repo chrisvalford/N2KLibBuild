@@ -24,3 +24,26 @@ enum tN2kGNSSmethod: Int {
          N2kGNSSm_Error=14,        ///< error occurred
          N2kGNSSm_Unavailable=15   ///< GNSS is unavailable
 }
+
+extension tN2kGNSSmethod: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .N2kGNSSm_noGNSS:
+            return "no GNSS"
+        case .N2kGNSSm_GNSSfix:
+            return "GNSS fix"
+        case .N2kGNSSm_DGNSS:
+            return "DGNSS"
+        case .N2kGNSSm_PreciseGNSS:
+            return "precise GNSS"
+        case .N2kGNSSm_RTKFixed:
+            return "RTKFixed"
+        case .N2kGNSSm_RTKFloat:
+            return "RTKFloat"
+        case .N2kGNSSm_Error:
+            return "error"
+        case .N2kGNSSm_Unavailable:
+            return "unavailable"
+        }
+    }
+}

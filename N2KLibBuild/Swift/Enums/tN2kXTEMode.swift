@@ -22,3 +22,20 @@ enum tN2kXTEMode: Int  {
          N2kxtem_Simulator=3,      ///< simulator mode
          N2kxtem_Manual=4          ///< manual mode
 }
+
+extension tN2kXTEMode: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .N2kxtem_Autonomous:
+            return "Autonomous"
+        case .N2kxtem_Differential:
+            return "Differential"
+        case .N2kxtem_Estimated:
+            return "Estimated"
+        case .N2kxtem_Simulator:
+            return "Simulator"
+        case .N2kxtem_Manual:
+            return "Manual"
+        }
+    }
+}

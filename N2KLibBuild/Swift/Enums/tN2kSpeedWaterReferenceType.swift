@@ -20,3 +20,24 @@ enum tN2kSpeedWaterReferenceType: Int {
          N2kSWRT_Error=254,          ///< error occurred
          N2kSWRT_Unavailable=255     ///< unavailable
 }
+
+extension tN2kSpeedWaterReferenceType: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .N2kSWRT_Paddle_wheel:
+            return "Paddle wheel"
+        case .N2kSWRT_Pitot_tube:
+            return "Pitot tube"
+        case .N2kSWRT_Doppler_log:
+            return "Doppler"
+        case .N2kSWRT_Ultra_Sound:
+            return "Correlation (ultra sound)"
+        case .N2kSWRT_Electro_magnetic:
+            return "Electro Magnetic"
+        case .N2kSWRT_Error:
+            return "error"
+        case .N2kSWRT_Unavailable:
+            return "unavailable"
+        }
+    }
+}

@@ -144,7 +144,6 @@
 		2F4BEE022AF7ABFD00D35221 /* N2kCANMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N2kCANMsg.h; sourceTree = "<group>"; };
 		2F4BEE032AF7ABFD00D35221 /* RingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingBuffer.h; sourceTree = "<group>"; };
 		2F4BEE042AF7ABFD00D35221 /* ActisenseReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActisenseReader.cpp; sourceTree = "<group>"; };
-		2F4BEE052AF7ABFD00D35221 /* N2kMessagesEnumToStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N2kMessagesEnumToStr.h; sourceTree = "<group>"; };
 		2F4BEE142AF7AFB800D35221 /* N2kEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = N2kEnums.swift; sourceTree = "<group>"; };
 		2F4BEE162AF7B31600D35221 /* N2KTypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N2KTypeAlias.swift; sourceTree = "<group>"; };
 		2F4BEE192AF7B39F00D35221 /* tN2kNavigationDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tN2kNavigationDirection.swift; sourceTree = "<group>"; };
@@ -307,7 +306,6 @@
 				2F4BEDF42AF7ABFD00D35221 /* N2kMsg.cpp */,
 				2F4BEDF72AF7ABFD00D35221 /* N2kMaretron.h */,
 				2F4BEDFC2AF7ABFD00D35221 /* N2kMaretron.cpp */,
-				2F4BEE052AF7ABFD00D35221 /* N2kMessagesEnumToStr.h */,
 				2F4BEDFF2AF7ABFD00D35221 /* N2kMessages.h */,
 				2F4BEDF82AF7ABFD00D35221 /* N2kMessages.cpp */,
 				2F4BEDED2AF7ABFD00D35221 /* N2kStream.cpp */,

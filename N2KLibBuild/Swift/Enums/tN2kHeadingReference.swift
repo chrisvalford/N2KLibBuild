@@ -18,3 +18,18 @@ enum tN2kHeadingReference: Int {
          N2khr_error=2,        ///< error occurred
          N2khr_Unavailable=3   ///< unavailable
 }
+
+extension tN2kHeadingReference: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .N2khr_true:
+            return "true"
+        case .N2khr_magnetic:
+            return "magnetic"
+        case .N2khr_error:
+            return "error"
+        case .N2khr_Unavailable:
+            return "unavailable"
+        }
+    }
+}

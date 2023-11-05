@@ -22,3 +22,24 @@ enum tN2kBatNomVolt: Int {
          N2kDCbnv_42v=5,   ///< nominal voltage is 42V
          N2kDCbnv_48v=6    ///< nominal voltage is 48V
 }
+
+extension tN2kBatNomVolt: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .N2kDCbnv_6v:
+            return "6V"
+        case .N2kDCbnv_12v:
+            return "12V"
+        case .N2kDCbnv_24v:
+            return "24V"
+        case .N2kDCbnv_32v:
+            return "32V"
+        case .N2kDCbnv_62v:
+            return "62V"
+        case .N2kDCbnv_42v:
+            return "42V"
+        case .N2kDCbnv_48v:
+            return "48V"
+        }
+    }
+}

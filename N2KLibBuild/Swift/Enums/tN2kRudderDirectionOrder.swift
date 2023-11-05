@@ -17,3 +17,18 @@ enum tN2kRudderDirectionOrder: Int {
          N2kRDO_MoveToPort=2,        ///< move to port
          N2kRDO_Unavailable=7        ///< unavailable
 }
+
+extension tN2kRudderDirectionOrder: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .N2kRDO_NoDirectionOrder:
+            return "no direction order"
+        case .N2kRDO_MoveToStarboard:
+                return "move to starboard"
+        case .N2kRDO_MoveToPort:
+            return "move to port"
+        case .N2kRDO_Unavailable:
+            return "unavailable"
+        }
+    }
+}

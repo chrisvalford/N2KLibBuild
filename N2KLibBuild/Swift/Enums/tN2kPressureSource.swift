@@ -26,3 +26,34 @@ enum tN2kPressureSource: Int {
          N2kps_Error = 254,            ///< error occurred
          N2kps_Unavailable = 255       ///< source is unavailable
 }
+
+extension tN2kPressureSource: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .N2kps_Atmospheric:
+            return "atmospheric"
+        case .N2kps_Water:
+            return "water"
+        case .N2kps_Steam:
+            return "steam"
+        case .N2kps_CompressedAir:
+            return "compressed air"
+        case .N2kps_Hydraulic:
+            return "hydraulic"
+        case .N2kps_Filter:
+            return "filter"
+        case .N2kps_AltimeterSetting:
+            return "altimeter setting"
+        case .N2kps_Oil:
+            return "oil"
+        case .N2kps_Fuel:
+            return "fuel"
+        case .N2kps_Reserved:
+            return "reserved"
+        case .N2kps_Error:
+            return "error"
+        case .N2kps_Unavailable:
+            return "unavailable"
+        }
+    }
+}

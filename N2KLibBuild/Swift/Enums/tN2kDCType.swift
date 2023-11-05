@@ -21,3 +21,20 @@ enum tN2kDCType: Int {
          N2kDCt_SolarCell=3,         ///< DC power from solar cell
          N2kDCt_WindGenerator=4      ///< DC power from wind generator
 }
+
+extension tN2kDCType: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .N2kDCt_Battery:
+            return "battery"
+        case .N2kDCt_Alternator:
+            return "altenator"
+        case .N2kDCt_Converter:
+            return "converter"
+        case .N2kDCt_SolarCell:
+            return "solar cell"
+        case .N2kDCt_WindGenerator:
+            return "wind generator"
+        }
+    }
+}
