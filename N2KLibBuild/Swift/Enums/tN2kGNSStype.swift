@@ -23,3 +23,28 @@ enum tN2kGNSStype: Int {
          N2kGNSSt_surveyed=7,              ///< surveyed mode
          N2kGNSSt_Galileo=8                ///< european galileo satellite network
 }
+
+extension tN2kGNSStype: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .N2kGNSSt_GPS:
+            return "GPS"
+        case .N2kGNSSt_GLONASS:
+            return "GLONASS"
+        case .N2kGNSSt_GPSGLONASS:
+            return "GPS+GLONASS"
+        case .N2kGNSSt_GPSSBASWAAS:
+            return "GPS+SBAS/WAAS"
+        case .N2kGNSSt_GPSSBASWAASGLONASS:
+            return "GPS+SBAS/WAAS+GLONASS"
+        case .N2kGNSSt_Chayka:
+            return "Chayka"
+        case .N2kGNSSt_integrated:
+            return "integrated"
+        case .N2kGNSSt_surveyed:
+            return "surveyed"
+        case .N2kGNSSt_Galileo:
+            return "Galileo"
+        }
+    }
+}
