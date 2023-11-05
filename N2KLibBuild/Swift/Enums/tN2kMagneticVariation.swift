@@ -25,3 +25,28 @@ enum tN2kMagneticVariation: Int {
          N2kmagvar_WMM2015=7,    ///< magnetic deviation derived from the WMM 2015 report
          N2kmagvar_WMM2020=8    ///< magnetic deviation derived from the WMM 2020 report
 }
+
+extension tN2kMagneticVariation: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .N2kmagvar_Manual:
+            return "Manual"
+        case .N2kmagvar_Chart:
+            return "Automatic Chart"
+        case .N2kmagvar_Table:
+            return "Automatic Table"
+        case .N2kmagvar_Calc:
+            return "Automatic Calculation"
+        case .N2kmagvar_WMM2000:
+            return "WMM 2000"
+        case .N2kmagvar_WMM2005:
+            return "WMM 2005"
+        case .N2kmagvar_WMM2010:
+                return "WMM 2010"
+        case .N2kmagvar_WMM2015:
+            return "WMM 2015"
+        case .N2kmagvar_WMM2020:
+            return "WMM 2020"
+        }
+    }
+}

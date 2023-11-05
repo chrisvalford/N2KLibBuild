@@ -30,3 +30,42 @@ enum tN2kTempSource: Int {
          N2kts_ExhaustGasTemperature=14,                 ///< value is representing a exhaust gas temperature
          N2kts_ShaftSealTemperature=15                    ///< value is representing a shaft seal temparature
 }
+
+extension tN2kTempSource: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .N2kts_SeaTemperature:
+            return "sea"
+        case .N2kts_OutsideTemperature:
+            return "outside"
+        case .N2kts_InsideTemperature:
+            return "inside"
+        case .N2kts_EngineRoomTemperature:
+            return "engine room"
+        case .N2kts_MainCabinTemperature:
+            return "main cabin"
+        case .N2kts_LiveWellTemperature:
+            return "live well"
+        case .N2kts_BaitWellTemperature:
+            return "bait well"
+        case .N2kts_RefridgerationTemperature:
+            return "refridgeration"
+        case .N2kts_HeatingSystemTemperature:
+            return "heating system"
+        case .N2kts_DewPointTemperature:
+            return "dew point"
+        case .N2kts_ApparentWindChillTemperature:
+            return "apparent wind chill"
+        case .N2kts_TheoreticalWindChillTemperature:
+            return "theoretical wind chill"
+        case .N2kts_HeatIndexTemperature:
+            return "heat index"
+        case .N2kts_FreezerTemperature:
+            return "freezer"
+        case .N2kts_ExhaustGasTemperature:
+            return "exhaust gas"
+        case .N2kts_ShaftSealTemperature:
+            return "shaft seal"
+        }
+    }
+}

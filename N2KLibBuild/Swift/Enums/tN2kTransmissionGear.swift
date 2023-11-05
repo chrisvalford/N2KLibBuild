@@ -17,3 +17,18 @@ enum tN2kTransmissionGear: Int {
          N2kTG_Reverse=2,  ///< transmission state is reverse
          N2kTG_Unknown=3  ///< transmission state is unknown
 }
+
+extension tN2kTransmissionGear: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .N2kTG_Forward:
+            return "forward"
+        case .N2kTG_Neutral:
+            return "neutral"
+        case .N2kTG_Reverse:
+            return "reverse"
+        case .N2kTG_Unknown:
+            return "unknown"
+        }
+    }
+}

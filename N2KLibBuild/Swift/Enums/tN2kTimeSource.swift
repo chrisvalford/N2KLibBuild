@@ -19,3 +19,22 @@ enum tN2kTimeSource: Int {
          N2ktimes_LocalRubidiumClock=4,  ///< Source is a local rubidium clock
          N2ktimes_LocalCrystalClock=5    ///< Source is a local crystal clock
 }
+
+extension tN2kTimeSource: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .N2ktimes_GPS:
+            return "GPS"
+        case .N2ktimes_GLONASS:
+            return "GLONASS"
+        case .N2ktimes_RadioStation:
+            return "radio station"
+        case .N2ktimes_LocalCesiumClock:
+            return "local cesium clock"
+        case .N2ktimes_LocalRubidiumClock:
+            return "local rubidium clock"
+        case .N2ktimes_LocalCrystalClock:
+            return "local crystal clock"
+        }
+    }
+}

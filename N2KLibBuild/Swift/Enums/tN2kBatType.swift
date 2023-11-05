@@ -19,3 +19,16 @@ enum tN2kBatType: Int  {
          N2kDCbt_Gel=1,              ///< battery type is GEL
          N2kDCbt_AGM=2               ///< battery type is AGM
 }
+
+extension tN2kBatType: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .N2kDCbt_Flooded:
+            return "flooded"
+        case .N2kDCbt_Gel:
+            return "gel"
+        case .N2kDCbt_AGM:
+            return "AGM"
+        }
+    }
+}

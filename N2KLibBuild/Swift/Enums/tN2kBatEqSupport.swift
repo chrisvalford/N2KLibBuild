@@ -20,3 +20,18 @@ enum tN2kBatEqSupport: Int  {
          N2kDCES_Error=2,      ///< Error
          N2kDCES_Unavailable=3 ///< Unavailable
 }
+
+extension tN2kBatEqSupport: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .N2kDCES_No:
+            return "no"
+        case .N2kDCES_Yes:
+            return "yes"
+        case .N2kDCES_Error:
+            return "error"
+        case .N2kDCES_Unavailable:
+            return "unavailable"
+        }
+    }
+}

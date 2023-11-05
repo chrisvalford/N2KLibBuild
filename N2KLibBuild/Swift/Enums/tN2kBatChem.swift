@@ -22,3 +22,20 @@ enum tN2kBatChem: Int {
          N2kDCbc_ZnO=3,          ///< battery chemistry is zink oxide
          N2kDCbc_NiMh=4        ///< battery chemistry is nickel metal hydride
 }
+
+extension tN2kBatChem: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .N2kDCbc_LeadAcid:
+            return "lead acid"
+        case .N2kDCbc_LiIon:
+            return "LiIon"
+        case .N2kDCbc_NiCad:
+            return "NiCad"
+        case .N2kDCbc_ZnO:
+            return "ZnO"
+        case .N2kDCbc_NiMh:
+            return "NiMh"
+        }
+    }
+}
