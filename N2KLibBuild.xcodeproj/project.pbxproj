@@ -27,7 +27,6 @@
 		2F4BEE0F2AF7ABFD00D35221 /* NMEA2000.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BEDF92AF7ABFD00D35221 /* NMEA2000.cpp */; };
 		2F4BEE102AF7ABFD00D35221 /* N2kMaretron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BEDFC2AF7ABFD00D35221 /* N2kMaretron.cpp */; };
 		2F4BEE112AF7ABFD00D35221 /* Seasmart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BEDFD2AF7ABFD00D35221 /* Seasmart.cpp */; };
-		2F4BEE122AF7ABFD00D35221 /* ActisenseReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BEE042AF7ABFD00D35221 /* ActisenseReader.cpp */; };
 		2F4BEE152AF7AFB800D35221 /* N2kEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BEE142AF7AFB800D35221 /* N2kEnums.swift */; };
 		2F4BEE172AF7B31600D35221 /* N2KTypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BEE162AF7B31600D35221 /* N2KTypeAlias.swift */; };
 		2F4BEE1A2AF7B39F00D35221 /* tN2kNavigationDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BEE192AF7B39F00D35221 /* tN2kNavigationDirection.swift */; };
@@ -81,6 +80,10 @@
 		2F4BEE7B2AF7BFFE00D35221 /* tN2kDD484.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BEE7A2AF7BFFE00D35221 /* tN2kDD484.swift */; };
 		2F4BEE7D2AF7C03900D35221 /* tN2kDD487.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BEE7C2AF7C03900D35221 /* tN2kDD487.swift */; };
 		2F4BEE7F2AF7C07300D35221 /* tN2kDD488.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BEE7E2AF7C07300D35221 /* tN2kDD488.swift */; };
+		2F4BEE822AF7DA0300D35221 /* source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BEE812AF7DA0300D35221 /* source.swift */; };
+		2F4BEE832AF7E1F700D35221 /* ActisenseReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BEDFE2AF7ABFD00D35221 /* ActisenseReader.swift */; };
+		2F4BEE852AF7E4DB00D35221 /* tN2kMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BEE842AF7E4DB00D35221 /* tN2kMsg.swift */; };
+		2F4BEE872AF7E4F800D35221 /* N2kStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BEE862AF7E4F800D35221 /* N2kStream.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,13 +140,12 @@
 		2F4BEDFB2AF7ABFD00D35221 /* N2kGroupFunctionDefaultHandlers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N2kGroupFunctionDefaultHandlers.h; sourceTree = "<group>"; };
 		2F4BEDFC2AF7ABFD00D35221 /* N2kMaretron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = N2kMaretron.cpp; sourceTree = "<group>"; };
 		2F4BEDFD2AF7ABFD00D35221 /* Seasmart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Seasmart.cpp; sourceTree = "<group>"; };
-		2F4BEDFE2AF7ABFD00D35221 /* ActisenseReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActisenseReader.h; sourceTree = "<group>"; };
+		2F4BEDFE2AF7ABFD00D35221 /* ActisenseReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActisenseReader.swift; sourceTree = "<group>"; };
 		2F4BEDFF2AF7ABFD00D35221 /* N2kMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N2kMessages.h; sourceTree = "<group>"; };
 		2F4BEE002AF7ABFD00D35221 /* N2kTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N2kTimer.h; sourceTree = "<group>"; };
 		2F4BEE012AF7ABFD00D35221 /* N2kGroupFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N2kGroupFunction.h; sourceTree = "<group>"; };
 		2F4BEE022AF7ABFD00D35221 /* N2kCANMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N2kCANMsg.h; sourceTree = "<group>"; };
 		2F4BEE032AF7ABFD00D35221 /* RingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingBuffer.h; sourceTree = "<group>"; };
-		2F4BEE042AF7ABFD00D35221 /* ActisenseReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActisenseReader.cpp; sourceTree = "<group>"; };
 		2F4BEE142AF7AFB800D35221 /* N2kEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = N2kEnums.swift; sourceTree = "<group>"; };
 		2F4BEE162AF7B31600D35221 /* N2KTypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N2KTypeAlias.swift; sourceTree = "<group>"; };
 		2F4BEE192AF7B39F00D35221 /* tN2kNavigationDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tN2kNavigationDirection.swift; sourceTree = "<group>"; };
@@ -197,6 +199,9 @@
 		2F4BEE7A2AF7BFFE00D35221 /* tN2kDD484.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tN2kDD484.swift; sourceTree = "<group>"; };
 		2F4BEE7C2AF7C03900D35221 /* tN2kDD487.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tN2kDD487.swift; sourceTree = "<group>"; };
 		2F4BEE7E2AF7C07300D35221 /* tN2kDD488.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tN2kDD488.swift; sourceTree = "<group>"; };
+		2F4BEE812AF7DA0300D35221 /* source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = source.swift; sourceTree = "<group>"; };
+		2F4BEE842AF7E4DB00D35221 /* tN2kMsg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tN2kMsg.swift; sourceTree = "<group>"; };
+		2F4BEE862AF7E4F800D35221 /* N2kStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N2kStream.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,8 +293,6 @@
 		2F4BEDE52AF7ABFC00D35221 /* CPP */ = {
 			isa = PBXGroup;
 			children = (
-				2F4BEDFE2AF7ABFD00D35221 /* ActisenseReader.h */,
-				2F4BEE042AF7ABFD00D35221 /* ActisenseReader.cpp */,
 				2F4BEE032AF7ABFD00D35221 /* RingBuffer.h */,
 				2F4BEDEB2AF7ABFC00D35221 /* RingBuffer.tpp */,
 				2F4BEDEE2AF7ABFD00D35221 /* Seasmart.h */,
@@ -308,8 +311,8 @@
 				2F4BEDFC2AF7ABFD00D35221 /* N2kMaretron.cpp */,
 				2F4BEDFF2AF7ABFD00D35221 /* N2kMessages.h */,
 				2F4BEDF82AF7ABFD00D35221 /* N2kMessages.cpp */,
-				2F4BEDED2AF7ABFD00D35221 /* N2kStream.cpp */,
 				2F4BEDEF2AF7ABFD00D35221 /* N2kStream.h */,
+				2F4BEDED2AF7ABFD00D35221 /* N2kStream.cpp */,
 				2F4BEE002AF7ABFD00D35221 /* N2kTimer.h */,
 				2F4BEDF62AF7ABFD00D35221 /* N2kTimer.cpp */,
 				2F4BEDF12AF7ABFD00D35221 /* N2kTypes.h */,
@@ -325,9 +328,13 @@
 		2F4BEE132AF7AF8D00D35221 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				2F4BEE802AF7D9D800D35221 /* N2K Enums */,
 				2F4BEE632AF7BBD700D35221 /* StdType Enums */,
 				2F4BEE182AF7B38A00D35221 /* Enums */,
 				2F4BEE162AF7B31600D35221 /* N2KTypeAlias.swift */,
+				2F4BEDFE2AF7ABFD00D35221 /* ActisenseReader.swift */,
+				2F4BEE842AF7E4DB00D35221 /* tN2kMsg.swift */,
+				2F4BEE862AF7E4F800D35221 /* N2kStream.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -396,6 +403,14 @@
 				2F4BEE7E2AF7C07300D35221 /* tN2kDD488.swift */,
 			);
 			path = "StdType Enums";
+			sourceTree = "<group>";
+		};
+		2F4BEE802AF7D9D800D35221 /* N2K Enums */ = {
+			isa = PBXGroup;
+			children = (
+				2F4BEE812AF7DA0300D35221 /* source.swift */,
+			);
+			path = "N2K Enums";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -537,12 +552,14 @@
 				2F4BEE322AF7B63C00D35221 /* tN2kWindReference.swift in Sources */,
 				2F4BEE262AF7B50E00D35221 /* tN2kGNSSDOPmode.swift in Sources */,
 				2F4BEE6B2AF7BD3400D35221 /* tN2kDD124.swift in Sources */,
+				2F4BEE872AF7E4F800D35221 /* N2kStream.swift in Sources */,
 				2F4BEE202AF7B45100D35221 /* tN2kXTEMode.swift in Sources */,
 				2F4BEDBF2AF7ABBA00D35221 /* Persistence.swift in Sources */,
 				2F4BEE522AF7B86700D35221 /* tN2kMagneticVariation.swift in Sources */,
 				2F4BEE302AF7B61A00D35221 /* tN2kFluidType.swift in Sources */,
 				2F4BEE562AF7B89A00D35221 /* tN2kChargeState.swift in Sources */,
 				2F4BEE7D2AF7C03900D35221 /* tN2kDD487.swift in Sources */,
+				2F4BEE852AF7E4DB00D35221 /* tN2kMsg.swift in Sources */,
 				2F4BEE792AF7BFB700D35221 /* tN2kDD482.swift in Sources */,
 				2F4BEE4E2AF7B81F00D35221 /* tN2kAISMode.swift in Sources */,
 				2F4BEE0C2AF7ABFD00D35221 /* N2kMsg.cpp in Sources */,
@@ -565,6 +582,7 @@
 				2F4BEE1A2AF7B39F00D35221 /* tN2kNavigationDirection.swift in Sources */,
 				2F4BEE152AF7AFB800D35221 /* N2kEnums.swift in Sources */,
 				2F4BEE752AF7BEB700D35221 /* tN2kDD480.swift in Sources */,
+				2F4BEE822AF7DA0300D35221 /* source.swift in Sources */,
 				2F4BEE442AF7B79F00D35221 /* tN2kAISRepeat.swift in Sources */,
 				2F4BEE0F2AF7ABFD00D35221 /* NMEA2000.cpp in Sources */,
 				2F4BEE5C2AF7B8EF00D35221 /* tN2kTurnMode.swift in Sources */,
@@ -574,7 +592,6 @@
 				2F4BEE712AF7BE3300D35221 /* tN2kDD473.swift in Sources */,
 				2F4BEE692AF7BCF300D35221 /* tN2kDD072.swift in Sources */,
 				2F4BEE542AF7B88200D35221 /* tN2kOnOff.swift in Sources */,
-				2F4BEE122AF7ABFD00D35221 /* ActisenseReader.cpp in Sources */,
 				2F4BEE5A2AF7B8D400D35221 /* tN2kSteeringMode.swift in Sources */,
 				2F4BEE222AF7B49C00D35221 /* tN2kGNSStype.swift in Sources */,
 				2F4BEE502AF7B84100D35221 /* tN2kAISTransceiverInformation.swift in Sources */,
@@ -596,6 +613,7 @@
 				2F4BEE652AF7BBF400D35221 /* tN2kDD002.swift in Sources */,
 				2F4BEE2E2AF7B5FC00D35221 /* tN2kTimeSource.swift in Sources */,
 				2F4BEE112AF7ABFD00D35221 /* Seasmart.cpp in Sources */,
+				2F4BEE832AF7E1F700D35221 /* ActisenseReader.swift in Sources */,
 				2F4BEE5E2AF7B90900D35221 /* tN2kMOBStatus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
