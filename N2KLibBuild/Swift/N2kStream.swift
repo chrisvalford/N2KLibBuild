@@ -8,5 +8,7 @@
 import Foundation
 
 class N2kStream {
-    
+    func read() {
+        
+    }
 }

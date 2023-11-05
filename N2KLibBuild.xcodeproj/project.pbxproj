@@ -118,7 +118,7 @@
 		2F4BEDD62AF7ABBA00D35221 /* N2KLibBuildUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N2KLibBuildUITests.swift; sourceTree = "<group>"; };
 		2F4BEDD82AF7ABBA00D35221 /* N2KLibBuildUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N2KLibBuildUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2F4BEDE62AF7ABFC00D35221 /* N2kDeviceList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = N2kDeviceList.cpp; sourceTree = "<group>"; };
-		2F4BEDE72AF7ABFC00D35221 /* N2kMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N2kMsg.h; sourceTree = "<group>"; };
+		2F4BEDE72AF7ABFC00D35221 /* N2kMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = N2kMsg.swift; sourceTree = "<group>"; };
 		2F4BEDE82AF7ABFC00D35221 /* NMEA2000_CAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMEA2000_CAN.h; sourceTree = "<group>"; };
 		2F4BEDE92AF7ABFC00D35221 /* NMEA2000_CompilerDefns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMEA2000_CompilerDefns.h; sourceTree = "<group>"; };
 		2F4BEDEB2AF7ABFC00D35221 /* RingBuffer.tpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RingBuffer.tpp; sourceTree = "<group>"; };
@@ -305,7 +305,7 @@
 				2F4BEDEC2AF7ABFD00D35221 /* N2kGroupFunction.cpp */,
 				2F4BEDFB2AF7ABFD00D35221 /* N2kGroupFunctionDefaultHandlers.h */,
 				2F4BEDF22AF7ABFD00D35221 /* N2kGroupFunctionDefaultHandlers.cpp */,
-				2F4BEDE72AF7ABFC00D35221 /* N2kMsg.h */,
+				2F4BEDE72AF7ABFC00D35221 /* N2kMsg.swift */,
 				2F4BEDF42AF7ABFD00D35221 /* N2kMsg.cpp */,
 				2F4BEDF72AF7ABFD00D35221 /* N2kMaretron.h */,
 				2F4BEDFC2AF7ABFD00D35221 /* N2kMaretron.cpp */,

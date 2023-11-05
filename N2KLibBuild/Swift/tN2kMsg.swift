@@ -8,5 +8,7 @@
 import Foundation
 
 class tN2kMsg {
-    
+    func Clear() {
+        
+    }
 }
